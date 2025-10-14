@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Original_Subscription_Date__c</fullName>
+    <label>Original Subscription Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>DateTime</type>
+    <description>Stores the original subscription date of the lead from the previous system (e.g., systeme.io).</description>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Customer Level</masterLabel>
+    <sorted>false</sorted>
+    <customValue><fullName>Nouveau</fullName><default>true</default><label>Nouveau</label></customValue>
+    <customValue><fullName>Ancien</fullName><default>false</default><label>Ancien</label></customValue>
+    <customValue><fullName>VIP</fullName><default>false</default><label>VIP</label></customValue>
+</GlobalValueSet>

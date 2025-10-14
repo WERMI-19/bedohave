@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Age Range</masterLabel>
+    <sorted>false</sorted>
+    <customValue><fullName>15-25</fullName><default>false</default><label>15-25 ans</label></customValue>
+    <customValue><fullName>26-35</fullName><default>false</default><label>26-35 ans</label></customValue>
+    <customValue><fullName>36-45</fullName><default>false</default><label>36-45 ans</label></customValue>
+    <customValue><fullName>46-55</fullName><default>false</default><label>46-55 ans</label></customValue>
+    <customValue><fullName>56+</fullName><default>false</default><label>56 ans et plus</label></customValue>
+</GlobalValueSet>

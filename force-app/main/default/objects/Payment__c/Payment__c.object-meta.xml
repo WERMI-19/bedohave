@@ -7,7 +7,7 @@
         <type>AutoNumber</type>
     </nameField>
     <deploymentStatus>Deployed</deploymentStatus>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <description>Tracks financial payments made by customers for products or services.</description>
     <fields>
         <fullName>Amount__c</fullName>
@@ -32,7 +32,8 @@
         <required>true</required>
         <valueSet>
             <restricted>true</restricted>
-            <valueSetName>PaymentMethod</valueSetName> </valueSet>
+            <valueSetName>PaymentMethod</valueSetName>
+        </valueSet>
         <trackTrending>false</trackTrending>
     </fields>
     <fields>

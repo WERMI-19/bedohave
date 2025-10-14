@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Interests</masterLabel>
+    <sorted>false</sorted>
+    <customValue><fullName>Livres</fullName><default>false</default><label>Livres</label></customValue>
+    <customValue><fullName>GCAP</fullName><default>false</default><label>GCAP</label></customValue>
+    <customValue><fullName>Formation en ligne</fullName><default>false</default><label>Formation en ligne</label></customValue>
+    <customValue><fullName>Développement Personnel</fullName><default>false</default><label>Développement Personnel</label></customValue>
+    <customValue><fullName>Voyages de formation</fullName><default>false</default><label>Voyages de formation</label></customValue>
+</GlobalValueSet>
