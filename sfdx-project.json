@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "bedohave",
+  "namespace": "",
+  "sfdcLoginUrl": "https://orgfarm-a56bbd55d3-dev-ed.develop.my.salesforce.com",
+  "sourceApiVersion": "64.0"
+}
