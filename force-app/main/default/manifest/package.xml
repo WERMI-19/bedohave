@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Contact_Tag__c</members>
-        <members>Event__c</members>
-        <members>Payment__c</members>
-        <members>Tag__c</members>
+        <members>Contact_Zaka__c</members>
+        <members>Lead_Zaka__c</members>
+        <members>Zaka__c</members>
         <name>CustomObject</name>
     </types>
 
@@ -16,29 +15,21 @@
         <members>Contact.Interest__c</members>
         <members>Contact.Original_Subscription_Date__c</members>
         <members>Contact.Student_ID__c</members>
+        
         <members>Lead.Age_Range__c</members>
         <members>Lead.Gender__c</members>
         <members>Lead.Interest__c</members>
         <members>Lead.Original_Subscription_Date__c</members>
         <members>Lead.RGPD_Consent__c</members>
+        
+        <members>Lead_Zaka__c.Lead__c</members>
+        <members>Lead_Zaka__c.Zaka__c</members>
         <name>CustomField</name>
     </types>
 
     <types>
-        <members>Event__c</members>
-        <members>Payment__c</members>
-        <members>Tag__c</members>
-        <name>CustomTab</name>
-    </types>
-
-    <types>
-        <members>Age_Range</members>
-        <members>Communication_Preferences</members>
-        <members>Customer_Level</members>
-        <members>Gender</members>
-        <members>Interests</members>
-        <members>PaymentMethod</members>
-        <name>GlobalValueSet</name>
+        <members>Lead_Zaka__c.Lead_Is_Required</members>
+        <name>ValidationRule</name>
     </types>
 
     <version>64.0</version>
