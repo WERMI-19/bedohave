@@ -1,36 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <types>
-        <members>Contact_Zaka__c</members>
-        <members>Lead_Zaka__c</members>
-        <members>Zaka__c</members>
-        <name>CustomObject</name>
-    </types>
-
-    <types>
-        <members>Contact.Age_Range__c</members>
-        <members>Contact.Communication_Prefs__c</members>
-        <members>Contact.Customer_Level__c</members>
-        <members>Contact.Gender__c</members>
-        <members>Contact.Interest__c</members>
-        <members>Contact.Original_Subscription_Date__c</members>
-        <members>Contact.Student_ID__c</members>
-        
-        <members>Lead.Age_Range__c</members>
-        <members>Lead.Gender__c</members>
-        <members>Lead.Interest__c</members>
-        <members>Lead.Original_Subscription_Date__c</members>
-        <members>Lead.RGPD_Consent__c</members>
-        
-        <members>Lead_Zaka__c.Lead__c</members>
-        <members>Lead_Zaka__c.Zaka__c</members>
-        <name>CustomField</name>
-    </types>
-
-    <types>
-        <members>Lead_Zaka__c.Lead_Is_Required</members>
-        <name>ValidationRule</name>
-    </types>
-
-    <version>64.0</version>
+  <!-- 1. Objects principaux -->
+  <types>
+    <members>Contact</members>
+    <members>Lead</members>
+    <members>Product2</members>
+    <name>CustomObject</name>
+  </types>
+  
+  <!-- 2. Champs personnalisés Contact -->
+  <types>
+    <members>Contact.Age_Range__c</members>
+    <members>Contact.Communication_Prefs__c</members>
+    <members>Contact.Customer_Level__c</members>
+    <members>Contact.Gender__c</members>
+    <members>Contact.Interest__c</members>
+    <members>Contact.Original_Subscription_Date__c</members>
+    <members>Contact.Student_ID__c</members>
+    <name>CustomField</name>
+  </types>
+  
+  <!-- 3. Champs personnalisés Lead -->
+  <types>
+    <members>Lead.Age_Range__c</members>
+    <members>Lead.Gender__c</members>
+    <members>Lead.Interest__c</members>
+    <members>Lead.Original_Subscription_Date__c</members>
+    <members>Lead.RGPD_Consent__c</members>
+    <name>CustomField</name>
+  </types>
+  
+  <!-- 4. RecordTypes Product2 -->
+  <types>
+    <members>Product2.Evenement</members>
+    <members>Product2.Formation_En_Presentiel</members>
+    <members>Product2.Formation_En_Ligne</members>
+    <members>Product2.Livre</members>
+    <members>Product2.Service</members>
+    <members>Product2.Voyage</members>
+    <name>RecordType</name>
+  </types>
+  
+  <!-- 5. Layouts Product2 -->
+  <types>
+    <members>Product2-Product Layout (Service)</members>
+    <members>Product2-Product Layout (Événement)</members>
+    <members>Product2-Product Layout (Voyage)</members>
+    <members>Product2-Product Layout (Formation En Présentiel)</members>
+    <members>Product2-Product Layout (Formation En Ligne)</members>
+    <members>Product2-Product Layout (Livre)</members>
+    <name>Layout</name>
+  </types>
+  
+  <version>64.0</version>
 </Package>

@@ -1,0 +1,30 @@
+<recordTypeVisibilities>
+    <recordType>Product2.Evenement</recordType>
+    <visible>true</visible>
+    <default>false</default>
+</recordTypeVisibilities>
+<recordTypeVisibilities>
+    <recordType>Product2.Formation_En_Presentiel</recordType>
+    <visible>true</visible>
+    <default>false</default>
+</recordTypeVisibilities>
+<recordTypeVisibilities>
+    <recordType>Product2.Formation_En_Ligne</recordType>
+    <visible>true</visible>
+    <default>false</default>
+</recordTypeVisibilities>
+<recordTypeVisibilities>
+    <recordType>Product2.Livre</recordType>
+    <visible>true</visible>
+    <default>false</default>
+</recordTypeVisibilities>
+<recordTypeVisibilities>
+    <recordType>Product2.Service</recordType>
+    <visible>true</visible>
+    <default>false</default>
+</recordTypeVisibilities>
+<recordTypeVisibilities>
+    <recordType>Product2.Voyage</recordType>
+    <visible>true</visible>
+    <default>false</default>
+</recordTypeVisibilities>
