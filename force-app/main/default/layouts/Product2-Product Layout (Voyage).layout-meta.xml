@@ -7,17 +7,56 @@
         <editHeading>true</editHeading>
         <label>Product Information</label>
         <layoutColumns>
-            <layoutItems><behavior>Required</behavior><field>Name</field></layoutItems>
-            <layoutItems><behavior>Edit</behavior><field>Family</field></layoutItems>
-            <layoutItems><behavior>Edit</behavior><field>Date_Debut__c</field></layoutItems>
-            <layoutItems><behavior>Edit</behavior><field>Capacite_Maximale__c</field></layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Name</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Statut__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Family</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Destination__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Capacite_Maximale__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Nombre_Participants_Actuels__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Places_Disponibles__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
-            <layoutItems><behavior>Edit</behavior><field>IsActive</field></layoutItems>
-            <layoutItems><behavior>Edit</behavior><field>ProductCode</field></layoutItems>
-            <layoutItems><behavior>Edit</behavior><field>Date_Fin__c</field></layoutItems>
-            <layoutItems><behavior>Edit</behavior><field>Nombre_Participants_Actuels__c</field></layoutItems>
-            <layoutItems><behavior>Readonly</behavior><field>Places_Disponibles__c</field></layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>IsActive</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>ProductCode</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Date_Fin__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Date_Debut__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Lien_Achat__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
@@ -27,7 +66,10 @@
         <editHeading>true</editHeading>
         <label>Détails du Voyage</label>
         <layoutColumns>
-            <layoutItems><behavior>Edit</behavior><field>Lieu__c</field></layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Lieu__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>
@@ -37,7 +79,10 @@
         <editHeading>false</editHeading>
         <label>Description Information</label>
         <layoutColumns>
-            <layoutItems><behavior>Edit</behavior><field>Description</field></layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Description</field>
+            </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>
@@ -54,4 +99,15 @@
     <relatedLists>
         <relatedList>RelatedPricebookEntryList</relatedList>
     </relatedLists>
+    <showEmailCheckbox>false</showEmailCheckbox>
+    <showHighlightsPanel>false</showHighlightsPanel>
+    <showInteractionLogPanel>false</showInteractionLogPanel>
+    <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
+    <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
+    <summaryLayout>
+        <masterLabel>00hgL000008dzv8</masterLabel>
+        <sizeX>4</sizeX>
+        <sizeY>0</sizeY>
+        <summaryLayoutStyle>Default</summaryLayoutStyle>
+    </summaryLayout>
 </Layout>

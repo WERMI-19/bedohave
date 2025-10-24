@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
   <!-- 1. Objects principaux -->
   <types>
     <members>Contact</members>
@@ -7,7 +8,7 @@
     <members>Product2</members>
     <name>CustomObject</name>
   </types>
-  
+
   <!-- 2. Champs personnalisés Contact -->
   <types>
     <members>Contact.Age_Range__c</members>
@@ -19,7 +20,7 @@
     <members>Contact.Student_ID__c</members>
     <name>CustomField</name>
   </types>
-  
+
   <!-- 3. Champs personnalisés Lead -->
   <types>
     <members>Lead.Age_Range__c</members>
@@ -29,7 +30,7 @@
     <members>Lead.RGPD_Consent__c</members>
     <name>CustomField</name>
   </types>
-  
+
   <!-- 4. RecordTypes Product2 -->
   <types>
     <members>Product2.Evenement</members>
@@ -40,7 +41,7 @@
     <members>Product2.Voyage</members>
     <name>RecordType</name>
   </types>
-  
+
   <!-- 5. Layouts Product2 -->
   <types>
     <members>Product2-Product Layout (Service)</members>
@@ -51,6 +52,12 @@
     <members>Product2-Product Layout (Livre)</members>
     <name>Layout</name>
   </types>
-  
+
+  <!-- 6. Profiles (clé pour l’assignation Layout/RT) -->
+  <types>
+    <members>*</members> <!-- ou liste précise: Admin, Standard, etc. -->
+    <name>Profile</name>
+  </types>
+
   <version>64.0</version>
 </Package>

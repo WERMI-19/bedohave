@@ -3,8 +3,6 @@
     <fullName>Places_Disponibles__c</fullName>
     <description>Calcule automatiquement les places restantes pour un événement.</description>
     <externalId>false</externalId>
-    <formula>Capacite_Maximale__c -  Nombre_Participants_Actuels__c</formula>
-    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Places Disponibles</label>
     <precision>18</precision>
     <required>false</required>

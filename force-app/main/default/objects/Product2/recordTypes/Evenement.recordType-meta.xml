@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
-  <fullName>Evenement</fullName>
-  <active>true</active>
-  <label>Evenement</label>
+    <fullName>Evenement</fullName>
+    <active>true</active>
+    <label>Événement</label>
+    <picklistValues>
+        <picklist>Family</picklist>
+        <values>
+            <fullName>Événement</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>QuantityUnitOfMeasure</picklist>
+        <values>
+            <fullName>Each</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Statut__c</picklist>
+        <values>
+            <fullName>A Vénir</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Annulé</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En Cours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terminé</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
 </RecordType>

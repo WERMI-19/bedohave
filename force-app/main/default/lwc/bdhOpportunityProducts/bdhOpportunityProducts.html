@@ -1,0 +1,27 @@
+<template>
+    <lightning-card title={text.titleCard} icon-name="standard:opportunity">
+        <template if:true={hasStockError}>
+            <div class="custom-error-banner" role="alert">
+                <lightning-formatted-rich-text value={text.msgStockError}></lightning-formatted-rich-text>
+            </div>
+        </template>
+
+        <template if:true={hasLineItems}>
+            <div class="slds-p-around_medium">
+                <lightning-datatable
+                    key-field="id"
+                    data={lineItems}
+                    columns={columns}
+                    onrowaction={handleRowAction}
+                    hide-checkbox-column>
+                </lightning-datatable>
+            </div>
+        </template>
+
+        <template if:false={hasLineItems}>
+            <div class="slds-p-around-medium slds-text-color_weak">
+                <lightning-formatted-rich-text value={text.msgNoItems}></lightning-formatted-rich-text>
+            </div>
+        </template>
+    </lightning-card>
+</template>

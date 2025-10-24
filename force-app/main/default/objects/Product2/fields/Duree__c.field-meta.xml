@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>URL_Acces__c</fullName>
-    <description>Lien d'accès pour les formations en ligne.</description>
+    <fullName>Duree__c</fullName>
     <externalId>false</externalId>
-    <label>URL d'Accès</label>
+    <label>Durée</label>
+    <precision>4</precision>
     <required>false</required>
+    <scale>0</scale>
     <trackHistory>false</trackHistory>
-    <type>Url</type>
+    <type>Number</type>
+    <unique>false</unique>
 </CustomField>

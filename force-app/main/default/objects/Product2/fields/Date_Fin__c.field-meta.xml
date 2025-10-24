@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Date_Fin__c</fullName>
     <description>Date et heure de fin pour les événements ou voyages.</description>
-    <externalId>false</externalId>
     <label>Date de Fin</label>
     <required>false</required>
     <trackHistory>false</trackHistory>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Auteur__c</fullName>
-    <description>Nom de l'auteur du livre.</description>
+    <description>Nom de l&apos;auteur du livre.</description>
     <externalId>false</externalId>
     <label>Auteur</label>
     <length>100</length>

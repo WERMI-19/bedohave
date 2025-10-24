@@ -1,28 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
-  <standardValue>
-    <fullName>Événement</fullName>
-    <default>false</default>
-    <label>Événement</label>
-  </standardValue>
-  <standardValue>
-    <fullName>Formation En Présentiel</fullName>
-    <default>false</default>
-    <label>Formation En Présentiel</label>
-  </standardValue>
-  <standardValue>
-    <fullName>Livre</fullName>
-    <default>false</default>
-    <label>Livre</label>
-  </standardValue>
-  <standardValue>
-    <fullName>Service</fullName>
-    <default>false</default>
-    <label>Service</label>
-  </standardValue>
-  <standardValue>
-    <fullName>Voyage</fullName>
-    <default>false</default>
-    <label>Voyage</label>
-  </standardValue>
+    <standardValue>
+        <fullName>Événement</fullName>
+        <default>false</default>
+        <label>Événement</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Formation_En_Ligne</fullName>  <!-- recordtypes in product2 -->
+        <default>false</default>
+        <label>Formation En Ligne</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Formation_En_Presentiel</fullName>  <!-- recordtypes in product2 -->
+        <default>false</default>
+        <label>Formation En Présentiel</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Livre</fullName>
+        <default>false</default>
+        <label>Livre</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Service</fullName>
+        <default>false</default>
+        <label>Service</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Voyage</fullName>
+        <default>false</default>
+        <label>Voyage</label>
+    </standardValue>
 </StandardValueSet>

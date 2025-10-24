@@ -3,5 +3,6 @@
     <fullName>RGPD_Consent__c</fullName>
     <defaultValue>false</defaultValue>
     <label>RGPD Consent</label>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>

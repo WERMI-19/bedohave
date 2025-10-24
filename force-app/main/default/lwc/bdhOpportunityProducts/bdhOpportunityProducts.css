@@ -1,0 +1,8 @@
+:host { display: block; }
+.custom-error-banner {
+    border-left: 4px solid var(--bdh-color-accent, #b00020);
+    background: var(--bdh-color-accent-10, #fdecee);
+    padding: 0.75rem 1rem;
+    margin: 0.5rem 1rem 0 1rem;
+    border-radius: 0.5rem;
+}
